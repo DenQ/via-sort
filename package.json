@@ -1,0 +1,19 @@
+{
+  "name": "via-sort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenQ/via-sort.git"
+  },
+  "author": "Denis Ivanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DenQ/via-sort/issues"
+  },
+  "homepage": "https://github.com/DenQ/via-sort#readme"
+}
