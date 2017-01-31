@@ -1,7 +1,7 @@
 {
   "name": "via-sort",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "This package is a convenient wrapper for most standard sorting methods. Such as quickSort, mergeSort and others",
   "main": "index.js",
   "scripts": {
     "test": "jasmine"
@@ -10,7 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/DenQ/via-sort.git"
   },
-  "author": "Denis Ivanov",
+  "keywords": [
+    "via sort",
+    "sort",
+    "sortings",
+    "sortings methods",
+    "sortings on node",
+    "sorting algorithms",
+    "algorithms",
+    "quick sort",
+    "merge sort",
+    "insertion sort"
+  ],
+  "author": "Denis Ivanov <denquick@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DenQ/via-sort/issues"
