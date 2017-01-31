@@ -1,9 +1,4 @@
-var map = {
-    'insertion': 'insertion-sort',
-};
-
-module.exports = function(type, collection) {
-    var file = map[type];
-    var method = require('./methods/' + file);
+module.exports = function (type, collection) {
+    var method = require('./methods/' + type + '-sort');
     return method(collection);
 };
