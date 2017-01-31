@@ -29,6 +29,6 @@ function test(mas, call, type) {
 }
 
 console.log(test(array), 'native sort method');
-['insertion', 'quick'].forEach(function(item) {
+['insertion', 'quick', 'merge'].forEach(function(item) {
     console.log( test(array, viaSort, item), item );
 });

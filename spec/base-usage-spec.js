@@ -12,7 +12,7 @@ function itTest(method) {
 describe('Base usage:', function() {
 
     it('It is workly', function() {
-        ['insertion', 'quick'].forEach(itTest);
+        ['insertion', 'quick', 'merge'].forEach(itTest);
     });
 
 });

@@ -36,4 +36,4 @@ module.exports = function sort(array, left, right) {
         sort(array, newPivot + 1, right);
     }
     return array;
-}
+};
