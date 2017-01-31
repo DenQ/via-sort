@@ -1,5 +1,6 @@
 var map = {
     'insertion': 'insertion-sort',
+    'quick': 'quick-sort',
 };
 
 module.exports = function(type, collection) {
