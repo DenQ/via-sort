@@ -15,4 +15,10 @@ describe('Base usage:', function() {
         ['insertion', 'quick', 'merge'].forEach(itTest);
     });
 
+    it('It is ex', function() {
+        expect(function() {
+            viaSort('incorrect', [1, 2]);
+        }).toThrow();
+    });
+
 });
